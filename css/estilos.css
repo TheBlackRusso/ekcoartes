@@ -1,0 +1,308 @@
+    *{
+    
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        background-color: #020202; 
+        /* background-image: linear-gradient(0, #7F7F7F 0, #020202 6.5%, #020202 12.5%, #020202 25%, #020202 37.5%, #020202 50%, #020202 62.5%, #020202 75%, #020202 87.5%, #020202 100%);   */
+    }
+
+
+    @font-face {
+        font-family: 'Mulish';
+        src: url(../fuentes/Mulish-VariableFont_wght.ttf);
+    
+        }
+
+     @font-face {
+        font-family:'DancingScript';
+        src: url(../fuentes/DancingScript-Regular.ttf); 
+         } 
+        
+    h4 {
+        font-family: 'DancingScript';
+    }
+    
+
+
+    .caja-principal {
+        width: 75rem;
+        height: 160rem;
+        background-image: linear-gradient(0, #020202 0,#020202 6.5%, #020202 6.5%, #020202 12.5%, #020202 25%, #020202 37.5%, #020202 50%, #020202 62.5%, #020202 75%, #020202 87.5%, #020202 100%);    
+
+    }
+
+
+
+    /* Nav */
+
+    .caja-header {
+        width:75rem;
+        height: 6.5rem;
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight:400;
+        color: #020202;
+        font-family: 'Mulish';
+        transition: 0.6s;
+    }
+
+    .nav-link:hover {
+        color: white;
+        font-weight:600;
+        transition: 0.4s;
+    }
+
+    .btn-style {
+        width:7rem;
+        height: 3rem;
+        background-color: white;
+        margin-left: 5rem;
+    }
+
+    .btn-style:hover {
+        background-color: #020202;
+    }
+
+    .radius-btn {
+        border-radius: 0px 0px 30px 0px;
+    }
+
+    .radius-btn-1 {
+        border-radius: 0px 30px 0px 30px;
+    }
+
+    .radius-btn-2 {
+        border-radius: 0px 00px 0px 30px;
+    }
+
+    /* Fin de Nav */
+
+    /* Nav redes sociales */
+
+    .redes-sociales {
+        width:auto;
+        height: 5rem;
+    }
+
+    .size-btn-redes {
+        width:3.125rem;
+        height:3.125rem;
+        margin-left: 5rem;   
+    }
+
+    .btn-facebook {
+        background-image: url(../imagenes/svg/redes-sociales/facebook-blanco.svg);
+        transition: 0.6s;
+    }
+
+    .btn-facebook:hover {
+        background-image: url(../imagenes/svg/redes-sociales/facebook-negro.svg);
+        transition: 0.4s; 
+    }
+
+    .btn-instagram {
+        background-image: url(../imagenes/svg/redes-sociales/instagram-blanco.svg);
+        transition: 0.6s;
+    }
+
+    .btn-instagram:hover {
+        background-image: url(../imagenes/svg/redes-sociales/instagram-negro.svg);
+        transition: 0.4s; 
+    }
+
+    .btn-twitter {
+        background-image: url(../imagenes/svg/redes-sociales/twitter-blanco.svg);
+        transition: 0.6s;
+    }
+
+    .btn-twitter:hover {
+        background-image: url(../imagenes/svg/redes-sociales/twitter-negro.svg);
+        transition: 0.4s; 
+    }
+
+    .btn-youtube {
+        background-image: url(../imagenes/svg/redes-sociales/youtube-blanco.svg);
+        transition: 0.6s;
+    }
+
+    .btn-youtube:hover {
+        background-image: url(../imagenes/svg/redes-sociales/youtube-negro.svg);
+        transition: 0.4s; 
+    }
+
+    /* Fin de Nav redes sociales */
+
+
+    .banner-presentacion {
+        width: 50rem;
+        height: 37.25rem;
+        background-image: url(../imagenes/jpg/fondo-banner.jpg); 
+    }
+
+    .cortinas {
+        opacity: .6;
+    }
+
+    .ci {
+        left: 27rem;
+        position: absolute;
+        transition: 0.8s;
+    }
+
+    .cd {
+        left: 42rem;
+        position: absolute;
+        transition: 0.8s;
+    }
+
+    .logo-banner {
+        width:17rem;
+        height:17rem;
+        margin-top: 7rem;
+        position:absolute;
+        background-color: transparent;
+        opacity:0;
+        transition: 0.8s;
+    }
+
+   .banner-presentacion:hover .ci {
+        transform: rotate(0deg) skew(0deg) translate(-160px, 0px);  
+     
+        transition: 0.6s;
+   
+    } 
+    .banner-presentacion:hover .cd {
+        transform: rotate(0deg) skew(0deg) translate(160px, 0px);
+        transition: 0.6s;
+    } 
+
+    .banner-presentacion:hover .logo-banner {
+        opacity:1;
+        transition: 0.6s;
+    } 
+
+    /* Banner-Animado */
+
+    .banner-animado {
+        width:62.5rem;
+        height:25rem;
+        border-radius: 60px 60px 60px 60px;
+
+       
+    }
+
+
+
+
+
+     /* Fin Banner-Animado */
+
+     /* Cartelera */
+
+     .cartelera {
+        width:62.5rem;
+        height:25rem;
+     }
+
+     .tarjeta-cartelera {
+        width:25rem;
+        height:25rem;
+        background-color: #C2C2C2;
+     } 
+
+     .cartelera h4 {
+         font-size:2.75rem;
+         color: rgb(255, 255, 255);  
+     }
+
+     .size-img-cartelera {
+        margin-top:0.5rem;
+        width:24rem;
+        height:24rem;
+     }
+
+
+     /* Fin de Cartelera  */
+
+
+     /* Nuestros trabajos */
+     .trabajos {
+        width:62.5rem;
+        height:25rem;
+     }
+
+     .trabajos-canal {
+        width:25rem;
+        height:25rem;
+        background-color: #C2C2C2;
+     } 
+
+     .size-img-trabajos {
+        margin-top:0.5rem;
+        width:24rem;
+        height:24rem;
+     }
+
+     .trabajos h4 {
+         margin-top: 5rem;
+         margin-bottom: 3rem;
+         font-size:2.75rem;
+         color: white;
+     }
+
+     /* Fin de Nuestros trabajos */
+
+     /* Footer */
+     .size-footer {
+        width:62.5rem;
+        height:10rem;
+        margin-top: 13rem;
+
+     }
+
+     .text-copyright {
+         font-size:1.25rem;
+         color: white;
+     }
+
+     .logo-footer {
+         width:5rem;
+         height:5rem;
+         background-color: transparent;
+                
+    }
+
+    .size-btn-redes-footer {
+        width:3.125rem;
+        height:3.125rem;
+        margin-left: 1.75rem;   
+    }
+
+    .size-developed {
+        margin-top: 1.5rem;
+        font-size:1.25rem;
+        color: white;
+    }
+
+    .size-logo-dd {
+        width:5rem;
+        height:5rem;
+    }
+
+
+     
+
+     /* Fin de Footer */
+
+
+
+
+
+
